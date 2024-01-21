@@ -133,6 +133,10 @@
         "type": "record",
         "name": "song",
         "fields": [
+          { 
+            "name": "trackId",
+            "type": "string"
+          },
           {
             "name": "artist",
             "type": "string"

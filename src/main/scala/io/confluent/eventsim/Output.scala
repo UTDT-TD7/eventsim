@@ -121,6 +121,7 @@ object Output {
     }
 
     if (session.currentState.page == "NextSong") {
+      pageViewConstructor.setTrackId(session.currentSong.get._1)
       pageViewConstructor.setArtist(session.currentSong.get._2)
       pageViewConstructor.setTitle(session.currentSong.get._3)
       pageViewConstructor.setDuration(session.currentSong.get._4)

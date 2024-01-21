@@ -33,6 +33,8 @@ class AvroConstructor() extends io.confluent.eventsim.events.AvroConstructor[Lis
 
   def setAuth(s: String) = eventBuilder.setAuth(s)
 
+  def setTrackId(s: String) = songBuilder.setTrackId(s)
+
   def setArtist(s: String) = songBuilder.setArtist(s)
 
   def setTitle(s: String) = songBuilder.setTitle(s)

@@ -9,6 +9,8 @@ class JSONConstructor() extends io.confluent.eventsim.events.JSONConstructor wit
 
   def setStatus(i: Int) = generator.writeNumberField("status", i)
 
+  def setTrackId(s: String) = generator.writeStringField("trackId", s)
+  
   def setArtist(s: String) = generator.writeStringField("artist", s)
 
   def setTitle(s: String) = generator.writeStringField("song", s)

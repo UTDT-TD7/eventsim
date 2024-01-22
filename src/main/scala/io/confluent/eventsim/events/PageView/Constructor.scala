@@ -9,6 +9,8 @@ trait Constructor extends io.confluent.eventsim.events.Constructor {
 
   def setStatus(i: Int)
 
+  def setTrackId(s: String)
+
   def setArtist(s: String)
 
   def setTitle(s: String)

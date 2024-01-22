@@ -3,6 +3,8 @@ package io.confluent.eventsim.events.Listen
 trait Constructor extends io.confluent.eventsim.events.Constructor {
   def setAuth(s: String)
 
+  def setTrackId(s: String)
+
   def setArtist(s: String)
 
   def setTitle(s: String)
